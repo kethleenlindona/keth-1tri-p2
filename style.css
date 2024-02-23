@@ -2,11 +2,11 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
-    --branco: #ffffff;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --verde: #e9db41;
+    --branco: #ebe3b2;
+    --botao-ativo: #b879a1;
+    --botao-inativo: rgba(151, 97, 131, 0.5);
+    --texto-fundo: rgba(138, 95, 117, 0.3);
 }
 
 body {
@@ -82,7 +82,7 @@ body {
 }
 
 .aba-conteudo-titulo-principal{
-    font-size: 28px;
+    font-size: 18px;
     text-align: center;
 }
 .aba-conteudo-titulo-secundario{
