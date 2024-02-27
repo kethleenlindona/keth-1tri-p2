@@ -128,3 +128,8 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
+
+.contador-digito-img {
+    max-width: 1px;
+    max-height: 1px;
+}
