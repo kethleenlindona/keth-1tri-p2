@@ -129,7 +129,7 @@ body {
     }
 }
 
-.contador-digito-img {
-    max-width: 1px;
-    max-height: 1px;
+.contador-digito-img{
+    max-width: 30px;
+    max-height: 30px;
 }
