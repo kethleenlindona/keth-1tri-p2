@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #e9db41;
+    --verde: #f1e989;
     --branco: #ebe3b2;
     --botao-ativo: #b879a1;
     --botao-inativo: rgba(151, 97, 131, 0.5);
@@ -110,8 +110,9 @@ body {
 
 .contador-digito-texto{
     color: var(--verde);
-    font-size: 20px;
+    font-size: 23px;
     margin: 0;
+    font-family: 'Chakra Petch', sans-serif;
 
 }
 
@@ -129,7 +130,3 @@ body {
     }
 }
 
-.contador-digito-img{
-    max-width: 30px;
-    max-height: 30px;
-}
