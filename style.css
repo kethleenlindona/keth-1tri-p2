@@ -2,15 +2,15 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #f1e989;
-    --branco: #ebe3b2;
-    --botao-ativo: #b879a1;
-    --botao-inativo: rgba(151, 97, 131, 0.5);
-    --texto-fundo: rgba(138, 95, 117, 0.3);
+    --verde: #ff9ecb;
+    --branco: #44a9d8;
+    --botao-ativo: #ffd4f6;
+    --botao-inativo: rgba(160, 192, 241, 0.5);
+    --texto-fundo: rgba(255, 188, 223, 0.3);
 }
 
 body {
-    background-image:url('./fundo.webp');
+    background-image:url('./fundoo.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--branco);
@@ -66,6 +66,10 @@ body {
 .botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .abas-textos{
@@ -110,10 +114,12 @@ body {
 
 .contador-digito-texto{
     color: var(--verde);
-    font-size: 23px;
+    font-size: 21px;
     margin: 0;
-    font-family: 'Chakra Petch', sans-serif;
-
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 @media screen and (min-width: 768px) {
